@@ -26,7 +26,22 @@ INSERT INTO restaurant VALUES (DEFAULT, 'Chipotle', 10, 5, 'Mexican', True, '201
 
 -- SELECT name FROM restaurant where last_time = 2019-15-04;
 
-SELECT name FROM restaurant where last_time = 2019-15-04 and stars = 5;
+-- SELECT * FROM restaurant ORDER BY distance < 1;
+
+-- SELECT * FROM restaurant ORDER BY stars > 4;
+
+-- SELECT * FROM restaurant ORDER BY stars > 4 and distance < 2;
+
+-- SELECT * FROM restaurant ORDER BY stars > 4 and distance < 2;
+
+-- SELECT COUNT(*) FROM restaurant;
+
+-- SELECT AVG(stars) FROM restaurant;
+
+-- SELECT MAX(stars) FROM restaurant;
+
+
+
 
 
 
